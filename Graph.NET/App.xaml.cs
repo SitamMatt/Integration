@@ -27,7 +27,7 @@ namespace Graph.NET
                 Console.WriteLine("Wybierz wariant funkcji do całkowania:");
                 Console.WriteLine("(1). f(x) = 4x^4 -2x^3 + 4x^2 -4x +1 ");
                 Console.WriteLine("(2). f(x) = 4sin(2x) ");
-                Console.WriteLine("(3). f(x) =2|x^3|");
+                Console.WriteLine("(3). f(x) = 2|x^3|");
                 isParsable = Int32.TryParse(Console.ReadLine(), out funSelection);
                 isBetween = funSelection.IsBetween(1, 3);
 
